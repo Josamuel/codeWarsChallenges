@@ -16,6 +16,7 @@ function sumsToK(numArr, k) {
  
  console.log('should be true', sumsToK([40, 20, 31, 3, 5, 6], 34));
  console.log('should be true', sumsToK([4, 5, 31, 3, 6], 11));
+ console.log('should be true', sumsToK([4, 5, 31, 3, 0, 20, 9], 20));
  console.log('should be false', sumsToK([4, 5, 31, 3, 6], 50));
  console.log('should be false', sumsToK([4, 5, 31, 19, 63], 4));
  console.log('should be false', sumsToK([12, 13, 14, ], 4));
